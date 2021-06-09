@@ -1,0 +1,18 @@
+{
+    "name": "index.html",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "babel --presets es2015 src -d dist"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1"
+    },
+    "dependencies": {
+        "node-fetch": "^2.6.1"
+    }
+}
