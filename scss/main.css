@@ -1,1 +1,62 @@
- 
+body {
+  background-color: #DB4C3F;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+.addNewTask, .card  {
+  margin-left: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 170px;
+  background-color: white;
+}
+.left {
+  display: flex;
+  height: 40px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #DB4C3F;
+  font-size: 25px;
+  padding: 0.3em;
+}
+ .right {
+  height: 40px;
+  box-sizing: border-box;
+}
+.right input, .right .taskValue {
+  height: 40px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.right .taskValue {
+  background-color: #fff;
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding: 0 8px 0 8px;
+}
+button {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 170px;
+  background-color: white;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
