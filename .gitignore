@@ -1,11 +1,11 @@
-*/node_modules
-*.babelrc
-*.package-lock.json
-*package.json
+node_modules/
+.babelrc/
+package-lock.json/
+package.json/
 # Logs
 logs
 *.log
-npm-debug.log*
+npmx-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
